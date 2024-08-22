@@ -14,10 +14,10 @@
 <body>
     <header class="bg-[#FFFBF0] px-10 py-8">
         <nav class="flex justify-between items-center mb-8">
-            <div class="w-2/6">
+            <div class="w-1/2 md:w-2/6">
                 <img src="./icons/logo.png" alt="">
             </div>
-            <div >
+            <div class="hidden md:block">
                 <ul class="flex gap-6">
                     <li><a class="text-sm font-medium text-[#3C3C3C]" href="">Home</a></li>
                     <li><a class="text-sm font-medium text-[#3C3C3C]" href="">Product</a></li>
@@ -25,15 +25,16 @@
                     <li><a class="text-sm font-medium text-[#3C3C3C]" href="">About Us</a></li>
                 </ul>
             </div>
+            <i  class="fa-solid fa-bars md:hidden"></i>
         </nav>
         <!-- banner section  -->
-        <div class="flex flex-col md:flex-row items-center justify-between mb-8">
+        <div class="flex flex-col md:flex-row md:items-center justify-between mb-8 gap-6">
             <div >
-                <h1 class="text-[#363958] text-7xl font-bold mb-6"><span class="text-[#FABE4C]">Be the Penguins</span> <br>
+                <h1 class="text-[#363958] text-4xl md:text-7xl font-bold mb-6"><span class="text-[#FABE4C]">Be the Penguins</span> <br>
                     of Winter</h1>
                 <p class="text-gray-500 text-sm font-medium mb-5">Lorem Ipsum is simply dummy text of the printing <br>
                     and typesetting industry.</p>
-                <button class="w-1/4 px-4 py-4 bg-[#A4BC46] flex items-center rounded-md text-[#FFFFFF] text-sm font-bold gap-1"><img class="w-1/6" src="./icons/shopping-cart 1.png" alt=""> BUY NOW</button>
+                <button class="w-2/5 md:w-1/4 px-4 py-4 bg-[#A4BC46] flex items-center rounded-md text-[#FFFFFF] text-sm font-bold gap-1"><img class="w-1/6" src="./icons/shopping-cart 1.png" alt=""> BUY NOW</button>
 
             </div>
             <div >
@@ -130,8 +131,8 @@
          </section>
          <!-- market place section -->
         <section class="mx-10 my-16">
-            <div class="grid grid-cols-1 md:grid-cols-2 ">
-                <div class="w-3/4 gap-6 mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="w-full md:w-3/4 gap-6 mx-auto">
                     <div class="flex items-center gap-4 rounded-xl shadow-xl px-5 py-5">
                         <div class="w-1/5"><img src="./icons/house.png" alt=""></div>
                         <div>
